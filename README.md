@@ -1,17 +1,17 @@
 # xtermin
 
-A new Flutter project.
+XTermin is a Flutter application that for “AI pest prediction and alert system for farms” by using enabled IoT sensors and AI.
 
-## Getting Started
+🚀 Getting Started
+Since this code was scaffolded dynamically, you will need to finish the initialization locally on your machine where Flutter is installed.
 
-This project is a starting point for a Flutter application.
+1. Generate Platform Folders
+Navigate to this directory in your terminal and run:
 
-A few resources to get you started if this is your first Flutter project:
+flutter create .
+This will automatically generate the corresponding iOS, Android, and web platform folders without touching the lib/ files we created!
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+2. Get Dependencies
+Run the following command to download all specified packages in pubspec.yaml:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub get
